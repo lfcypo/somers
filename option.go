@@ -2,7 +2,7 @@ package somers
 
 type someType = any
 
-type Option[T any] struct {
+type Option[T someType] struct {
 	value T
 	none  bool
 }
